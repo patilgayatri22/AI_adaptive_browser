@@ -1,0 +1,29 @@
+# Dependencies - must be rebuilt in Docker for Linux
+node_modules
+.npm
+
+# Build output
+.next
+out
+build
+
+# Local env files
+.env*.local
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Other
+README.md
+*.md
