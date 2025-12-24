@@ -1,4 +1,4 @@
-# Agent Browser Service - Docker Setup
+# Adaptive Agent Browser Service - Docker Setup
 
 Multi-team development environment for the Agent Browser Service (ABS) project.
 
@@ -444,3 +444,5 @@ docker system df
 docker-compose exec mcp-playwright playwright install chromium
 docker-compose exec mcp-playwright playwright install-deps
 ```
+
+
